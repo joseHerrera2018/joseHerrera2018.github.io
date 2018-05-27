@@ -1,0 +1,75 @@
+*{
+
+padding: 0;
+margin: 0;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../font/opensans-bold-webfont.woff2') format('woff2'),
+         url('../font/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: "open_sansbold" Helvetica, verdana;
+	background: #FFFFFF;
+	color: 
+	font-size: 2em;
+}
+
+h1
+{
+	color:#1822E5;
+	margin: 0.25em auto;
+	text-align: center;
+	text-shadow: 2px;
+}
+
+header, nav, footer
+ {
+ 	background: #EF0404;
+ 	border-radius: 0.5em;
+ 	margin: 0.5em auto;
+ 	max-width: 960px;
+ 	padding: 0.25em ;
+ 	text-align: center;
+
+
+}
+
+section#contenedor{
+
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0;
+	background: #08FCC0;
+	text-align: center;
+
+}
+
+section#principal, aside{
+	background: #F0F80A;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.2em auto;
+	max-width: 960px;
+	min-height:  200px;
+	vertical-align: top;
+	width: 65%;
+
+}
+article{
+
+	background: #9075D4;
+	border-radius:  0.5em;
+	min-height: 140px;
+	padding: 0.25em;
+
+}
+aside{
+	width: 30%;
+}

@@ -1,0 +1,35 @@
+.position{
+	position: static;
+}
+
+.positionrelative1{
+	position: relative;
+	border: 3px solid black;
+}
+
+.positionrelative2{
+	border: 3px solid red;
+	position: relative;
+	top :-20px;
+	left: 20px;
+	background-color: white;
+	width: 500px;
+}
+
+.positionfixed{
+	border: 3px solid red;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 200px;
+	background-color: white;
+
+}
+
+.float{
+	border: 3px solid yellow;
+	float: right;
+	margin: 0 0 1em 1em;
+
+}
+
